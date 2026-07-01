@@ -1,0 +1,125 @@
+canonical_identifier: bkk:krp/KR6k0228/v1
+canonical_location: https://kanripo.org/bkk/KR6k0228/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 沙彌律儀要略述義
+  identifiers:
+    alt_id:
+    - X60n1119
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X60/X60n1119.xml
+    old_id: X60n1119
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6k0228_000.yaml, hash: 'sha256:7047a21171288651378e7f1c57e006d62569dd18c6f2c7fc35af3c63330cae92'}
+  - {seq: 1, filename: KR6k0228_001.yaml, hash: 'sha256:509fe781ca65d1b19f05c2875f5eff6e3a51f60ab86806175ab3e2812edc6bad'}
+  - {seq: 2, filename: KR6k0228_002.yaml, hash: 'sha256:30767531cdbc245c6d602bad6f12449b7375708debf38e0891037d209fd32785'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6k0228_000.markers.yaml, hash: 'sha256:64c95eafe9841beb222c72802c276cbb0251f063fb7e1c43b7b025322d61ec4d'}
+  - {seq: 1, role: markers, filename: assets/KR6k0228_001.markers.yaml, hash: 'sha256:67dc0f658759f9864236306a612d7b99af811d5dddbd73f51ad8855c2434a96d'}
+  - {seq: 2, role: markers, filename: assets/KR6k0228_002.markers.yaml, hash: 'sha256:4eb1e6b81f6569bce7adb48d03d183800881d6a9df7ffe0665ab1fee650b64ed'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6k0228_X_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: No. 1119-A 敘
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6k0228_X_000-mulu-2
+    span:
+    - front
+    - 363
+    - 363
+  label: 凡例
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6k0228_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 33943
+  label: 沙彌律儀要略述義卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6k0228_X_001-mulu-1
+    span:
+    - body
+    - 17
+    - 17
+  label: 卷上
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6k0228_X_001-mulu-2
+    span:
+    - body
+    - 31892
+    - 31892
+  label: 事義
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6k0228_X_002-juan-start
+    span:
+    - body
+    - 0
+    - 43157
+  label: 沙彌律儀要略述義卷下
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6k0228_X_002-mulu-1
+    span:
+    - body
+    - 17
+    - 17
+  label: 卷下
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6k0228_X_002-mulu-2
+    span:
+    - body
+    - 41517
+    - 41517
+  label: No. 1119-B 䟦
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6k0228_X_002-mulu-3
+    span:
+    - body
+    - 41813
+    - 41813
+  label: 事義
+  type: mulu
+  level: 1
+hash: sha256:3a30b62b9b1baa5a7e7601bf67fa36e19831057f46eb8073f60da443f63dc75e
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
